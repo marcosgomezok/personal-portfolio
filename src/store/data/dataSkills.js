@@ -52,11 +52,11 @@ export const dataSkills = [
         name:'TypeScript',
         level:'⭐⚫⚫⚫⚫',
         img:require('../images/skills/typescript.jpg').default
-    },  
-    {
-        id:'skill10',
-        name:'skills.english',
-        level:'⭐⭐⭐⚫⚫',
-        img:require('../images/skills/english.jpg').default
-    },  
+    }
+    // ,{
+    //     id:'skill10',
+    //     name:'skills.english',
+    //     level:'⭐⭐⭐⚫⚫',
+    //     img:require('../images/skills/english.jpg').default
+    // },  
 ]
