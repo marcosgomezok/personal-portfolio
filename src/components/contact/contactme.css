@@ -1,0 +1,225 @@
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5em;
+  padding-bottom: 0px;
+  color: var(--primary-color);
+  width: 100%;
+}
+.finalcss {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.sendCoffe{
+  max-width: 15%;
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  left: 45%;
+}
+.titleCoffe{
+  font-size: 24px;
+  font-weight: bold;
+}
+#contact .section-head {
+  margin-bottom: 42px;
+}
+
+#contact a,
+#contact a:visited {
+  color: #0762f9;
+}
+#contact a:hover,
+#contact a:focus {
+  color: #fff;
+}
+
+#contact h1 {
+  font-family: var(--primary-font-family);
+  font-size: 18px/24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--primary-color);
+  margin-bottom: 6px;
+}
+#contact h1 span {
+  display: none;
+}
+#contact h1:before {
+  font-family: "FontAwesome";
+  content: "\f0e0";
+  padding-right: 0px;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: left;
+  float: left;
+  color: var(--primary-color);
+}
+
+#contact h4 {
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 6px;
+}
+#contact p.lead {
+  position: relative;
+  display: flex;
+  padding-left: 6%;
+  color: var(--primary-color);
+  font-size: 2.3em;
+}
+#contact .header-col {
+  padding-top: 6px;
+}
+
+#contact form {
+  margin-bottom: 30px;
+  width: 100%;
+}
+fieldset {
+  border-width: 0px;
+}
+#contact label {
+  font: var(--primary-font-family);
+  font-size: 15px/24px;
+  margin: 12px 0;
+  color: var(--primary-color);
+  position: relative;
+  float: left;
+  width: 10%;
+  font-weight: bold;
+}
+
+#contact input,
+#contact textarea,
+#contact select {
+  padding: 10px 20px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  margin-bottom: 42px;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  line-height: 24px;
+  width: 80%;
+  border-radius: 10px;
+}
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+  color: var(--secondary-color);
+}
+#contact button.submit {
+  align-items: center;
+  background: var(--secondary-color-section-five);
+  border-radius: 10px;
+  border: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: var(--primary-color);
+  cursor: pointer;
+  display: flex;
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+  font-weight: bold;
+  height: 3em;
+  justify-content: center;
+  left: 20%;
+  margin-left: 0%;
+  position: relative;
+  width: 37%;
+}
+
+textarea {
+  resize: none;
+}
+#contact button.submit:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: var(--primary-color);
+  color: var(--color-section-five);
+}
+#contact span.required {
+  color: var(--danger-color);
+  font-size: 18px;
+}
+#message-warning,
+#message-success {
+  background: var(--color-section-five);
+  align-items: center;
+  text-align: center;
+  display: flex;
+  left: 10%;
+  width: 57%;
+  font-size: 20px;
+  justify-content: center;
+
+  position: relative;
+}
+#message-warning {
+  color: var(--danger-color);
+}
+#message-success {
+  color: var(--primary-color);
+}
+
+#message-warning i,
+#message-success i {
+  margin-right: 0px;
+}
+
+.socialNetworks {
+  min-width: 80%;
+  position: relative;
+  display: inline-block;
+  margin: 20px 25px;
+  justify-content: center;
+  align-items: center;
+}
+.socialIcon {
+  position: relative;
+  display: inline-block;
+  margin: 0.5em 2%;
+  justify-content: center;
+  align-items: center;
+  max-height: 4em;
+  max-width: 4em;
+}
+
+
+
+@media (max-width: 62em) {
+  #contact label {
+    width: 18%;
+  }
+  #contact select {
+    width: 72%;
+  }
+}
+@media (max-width: 42em) {
+  #contact label {
+    width: 20%;
+  }
+  #contact input,
+  #contact textarea,
+  #contact select {
+    width: 70%;
+  }
+}
+@media (max-width: 30em) {
+  #contact label {
+    width: 26%;
+  }
+  #contact input,
+  #contact textarea,
+  #contact select {
+    width: 74%;
+  }
+  .socialIcon {
+    max-height: 3.1em;
+    max-width: 3.1em;
+  }
+}

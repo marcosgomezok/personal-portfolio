@@ -1,0 +1,6 @@
+.footer{
+    color: var(--color-section-five);
+    display: flex;
+    justify-content: center;
+    width:100%;
+}

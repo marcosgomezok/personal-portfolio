@@ -1,0 +1,65 @@
+{
+    "navbar":{
+        "logo":" Marcos Gómez",
+        "home":"Home",
+        "aboutMe":"About me",
+        "skills":"Skills",
+        "projects":"Projects",
+        "contactMe":"Contact me",
+        "translate":"Translate"
+    },
+    "aboutme":{
+        "title":"About me",
+        "description": "My name is Marcos Javier Gomez, I am 23 years old and I am currently an advanced student of the Computer Engineering career at the National University of Catamarca and I work as a QA Analyst at IncluIT.",
+        "description2": "I started in the world of web development two years ago and since then I have not stopped. I am passionate about computing, technology and coffee. My favorite topics are space exploration, the crypto world and programming.",
+        "description3": "I am quite self-taught, I constantly seek to learn new things, find solutions and solve problems.",
+        "description4": "I hope I can grow professionally, and in some way contribute to society.",
+        "contactTitle": "Contact details",
+        "contactInformationLabel": "Email: ",
+        "contactInformation": "contactinfomg@gmail.com",
+        "contactCityLabel": "City: ",
+        "contactCity": "San Fernando del Valle de Catamarca, Catamarca, 4700",
+        "contactStreetLabel": "Street: ",
+        "contactStreet": "Waldino Correa",
+        "moreInfo":"More info"
+    },
+    "home":{
+        "greeting":"Hello! I am Marcos",
+        "ocupation":"Web Developer"
+    },
+    "projects":{
+        "title":"My projects",
+        "project1":{
+            "title":"Hello World",
+            "description":"Hello World"
+        },
+        "project2":{
+            "title":"Postres Nuestros",
+            "description":"Developed with Node Js, Express, React, Redux, MongoDB, Javascript, HTML and CSS."
+        },
+        "project3":{
+            "title":"Future Gallery",
+            "description":"Developed with Node Js, Express, React, Redux, MongoDB, Javascript, HTML and CSS."
+        },
+        "project4":{
+            "title":"Personal Portfolio",
+            "description":"Developed with React, Javascript, HTML and CSS."
+        }
+    },
+    "skills":{
+        "english":"English",
+        "title":"My skills"
+    },
+    "contact":{
+        "title":"Contact me",
+        "submit":"Submit",
+        "name":"Name",
+        "email":"Email",
+        "subject":"Subject",
+        "message":"Message",
+        "socialNetworks":"Social networks",
+        "socialInfo":"You can also follow me on my social networks or contact me through any of them!",
+        "messagedone":"Your message was sent, thank you!",
+        "sendcoffe":"Invite me a coffee"
+    }
+}

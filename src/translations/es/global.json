@@ -1,0 +1,66 @@
+
+{
+    "navbar":{
+        "logo":" Marcos Gómez",
+        "home":"Inicio",
+        "aboutMe":"Sobre mi",
+        "skills":"Habilidades",
+        "projects":"Proyectos",
+        "contactMe":"Contáctame",
+        "translate":"Traducir"
+    },
+    "aboutme":{
+        "title":"Sobre mi",
+        "description":"Me llamo Marcos Javier Gomez, tengo 23 años y actualmente soy estudiante avanzado de la carrera de Ingeniería en Informática en la Universidad Nacional de Catamarca y trabajo como Analista QA en IncluIT.",
+        "description2":"Empecé en el mundo del desarrollo web hace dos años y desde entonces no he parado. Me apasiona la informática, la tecnología y el café. Mis temas favoritos son la exploración espacial, el mundo crypto y la programación.",
+        "description3":"Soy bastante autodidacta, busco aprender constantemente nuevas cosas, encontrar soluciones y resolver problemas.",
+        "description4":"Espero poder crecer profesionalmente, y de alguna manera aportar a la sociedad.",
+        "contactTitle":"Datos de contacto",
+        "contactInformationLabel":"Correo: ",
+        "contactInformation":"contactinfomg@gmail.com",
+        "contactCityLabel": "Ciudad: ",
+        "contactCity": "San Fernando del Valle de Catamarca, Catamarca, 4700",
+        "contactStreetLabel": "Calle: ",
+        "contactStreet": "Waldino Correa",
+        "moreInfo":"Más información"
+    },
+    "home":{
+        "greeting":"Hola! Soy Marcos",
+        "ocupation":"Desarrollador Web"
+    },
+    "projects":{
+        "title":"Mis proyectos",
+        "project1":{
+            "title":"Hola Mundo",
+            "description":"Hola Mundo"
+        },
+        "project2":{
+            "title":"Postres Nuestros",
+            "description":"Desarrollada con Node Js, Express, React, Redux, MongoDB, Javascript, HTML y CSS."
+        },
+        "project3":{
+            "title":"Future Gallery",
+            "description":"Desarrollada con Node Js, Express, React, Redux, MongoDB, Javascript, HTML y CSS."
+        },
+        "project4":{
+            "title":"Personal Portfolio",
+            "description":"Desarrollada con React, Javascript, HTML y CSS."
+        }
+    },
+    "skills":{
+        "english":"Ingles",
+        "title":"Mis habilidades"
+    },
+    "contact":{
+        "title":"Contáctame",
+        "submit":"Enviar",
+        "name":"Nombre",
+        "email":"Correo",
+        "subject":"Asunto",
+        "message":"Mensaje",
+        "socialNetworks":"Redes sociales",
+        "socialInfo":"Tambien puedes seguirme en mis redes sociales o contáctame por alguna de ellas!",
+        "messagedone":"Su mensaje fue enviado, ¡gracias!",
+        "sendcoffe":"Invitame un Cafecito"
+    }
+}

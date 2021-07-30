@@ -1,0 +1,78 @@
+#about {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#about h2 {
+  font-family: sans-serif;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+#about p {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--primary-color);
+}
+#about .profile-pic {
+  position: relative;
+  height: 100%;
+  width: auto;
+  border-radius: 100%;
+}
+#about .contact-details {
+  width: 41.66667%;
+}
+
+#about .main-col {
+  padding-right: 5%;
+}
+#about .moreinfo {
+  width: 58.33333%;
+  padding-top: 4em;
+  padding-left: 5em;
+}
+
+#about .moreinfo .button {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 6px;
+  background: var(--secondary-color-section-two);
+  padding: 20px;
+  border-radius: 5%;
+}
+#about .moreinfo .button:hover {
+  cursor: pointer;
+  background: var(--primary-color);
+  color: var(--color-section-two);
+}
+#about .moreinfo .button {
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.spanBold {
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 30px 0;
+}
+p img {
+  margin: 0;
+}
+p.lead {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-bottom: 18px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+img.pull-right {
+  margin: 12px 0px 0px 18px;
+}
+img.pull-left {
+  margin: 12px 18px 0px 0px;
+}

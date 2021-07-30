@@ -1,0 +1,234 @@
+#projects {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+  font-family: var(--primary-font-family);
+  transition: background 0.4s ease-in;
+}
+
+.titleProjects {
+  color: var(--primary-color);
+  font-size: 2.5em;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.card {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+  z-index: 5000;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  max-height: 1000px;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  min-height: 35em;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#item-1:checked ~ .cards #img-3, #item-2:checked ~ .cards #img-1, #item-3:checked ~ .cards #img-2 {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #img-2, #item-2:checked ~ .cards #img-3, #item-3:checked ~ .cards #img-1 {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #img-1, #item-2:checked ~ .cards #img-2, #item-3:checked ~ .cards #img-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+
+#item-2:checked ~ .infoBox #sections {
+  transform: translateY(0);
+}
+
+#item-2:checked ~ .infoBox #sections {
+  transform: translateY(-35%);
+}
+
+#item-3:checked ~ .infoBox #sections {
+  transform: translateY(-69%);
+}
+.info-area {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 1.2em;
+  transition: transform 0.4s ease-in;
+}
+
+.upper-part {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  height: 10em;
+  overflow: hidden;
+}
+.infoBox {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  min-width: 60%;
+  padding: 1em 0.5em;
+  height: 12em;
+}
+
+.projectInfo {
+  width: calc(100% - 32px);
+  display: block;
+  padding-bottom: 5.5em;
+}
+
+.projectInfo .title {
+  color: var(--secondary-color);
+  font-size: 1.7em;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.sub-line {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.subtitle {
+  padding-top: 0.5em;
+  font-size: 22px;
+  line-height: 1.6em;
+  color: var(--muted-color);
+}
+
+.projectLink {
+  font-size: 22px;
+  color: var(--link-color);
+}
+
+.projectLink:hover {
+  border-bottom: 1px solid;
+}
+
+@media (max-width: 40em) {
+  .infoBox {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    width: 80%;
+    padding: 1em 0.5em;
+    height: 12em;
+  }
+  .card {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    z-index: 5000;
+  }
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    min-height: 18em;
+  }
+  .projectInfo .title {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 24px;
+  }
+  .subtitle {
+    padding-top: 0.5em;
+    font-size: 18px;
+    line-height: 1.3em;
+    color: var(--muted-color);
+  }
+  .projectLink {
+    font-size: 1rem;
+  }
+  #item-1:checked ~ .cards #img-3, #item-2:checked ~ .cards #img-1, #item-3:checked ~ .cards #img-2 {
+    transform: translatex(-25%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #img-2, #item-2:checked ~ .cards #img-3, #item-3:checked ~ .cards #img-1 {
+    transform: translatex(25%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #img-1, #item-2:checked ~ .cards #img-2, #item-3:checked ~ .cards #img-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 30em) {
+  #item-3:checked ~ .infoBox #sections {
+    transform: translateY(-70%);
+  }
+}
+
+@media (max-height: 30em) {
+  .cards {
+    position: relative;
+    width: 95%;
+    height: 80%;
+    margin-bottom: 20px;
+    min-height: 25em;
+  }
+  .infoBox {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    width: 75%;
+    padding: 1em 0.5em;
+    height: 12em;
+  }
+}
