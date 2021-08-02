@@ -19,6 +19,7 @@
 .env.production.local
 .env.production
 .env.development
+.env
 
 .vscode
 
