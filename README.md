@@ -1,6 +1,6 @@
 # Welcome to your personal portfolio
 
-# First steps
+# First steps 🚀
 
 * Clone this repository: [https://github.com/marcosgomezok/personal-portfolio](https://github.com/marcosgomezok/personal-portfolio)
 
@@ -24,9 +24,9 @@ In ```src/translations``` there are two folders that contain the portfolio infor
 
 In ```src/store/data``` you can find the following files:
 
-* [dataProjects.js] : Your projects 
-* [dataSkills.js] : Your skils
-* [dataSocial.js] : Your social networks and colaborations
+* [dataProjects.js](https://github.com/marcosgomezok/personal-portfolio/blob/master/src/store/data/dataProjects.js) : Your projects 
+* [dataSkills.js](https://github.com/marcosgomezok/personal-portfolio/blob/master/src/store/data/dataSkills.js) : Your skils
+* [dataSocial.js](https://github.com/marcosgomezok/personal-portfolio/blob/master/src/store/data/dataSocial.js) : Your social networks and colaborations
 
 # EmailJs
 For it to work you must do the following
