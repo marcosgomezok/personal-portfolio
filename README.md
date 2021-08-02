@@ -6,4 +6,4 @@ To modify the global styles of the portfolio, you must go to the ```App.css``` f
 
 For it to work, you must follow one of the following steps:
 
-* Modify the ```.env.develpment``` and ```.env.production``` files and set your own environment variables that [emailJs](emailjs.com) offers you
+* Modify the ```.env.develpment``` and ```.env.production``` files and set your own environment variables that [emailJs](https://www.emailjs.com) offers you
