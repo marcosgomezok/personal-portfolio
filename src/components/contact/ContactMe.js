@@ -131,6 +131,7 @@ export const ContactMe = ({ translate }) => {
               {dataNetworks.map((network) => (
                 <SocialIcon
                   className="socialIcon"
+                  key={network.id}
                   url={network.url}
                   bgColor="#fff"
                   style={{ height: 100, width: 100 }}
@@ -145,6 +146,7 @@ export const ContactMe = ({ translate }) => {
               {dataColaboration.map((colab) => (
                 <SocialIcon
                   className="socialIcon"
+                  key={colab.id}
                   url={colab.url}
                   bgColor="#fff"
                   style={{ height: 100, width: 100 }}
