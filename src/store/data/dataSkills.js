@@ -53,10 +53,4 @@ export const dataSkills = [
         level:'⭐⚫⚫⚫⚫',
         img:require('../images/skills/typescript.jpg').default
     }
-    // ,{
-    //     id:'skill10',
-    //     name:'skills.english',
-    //     level:'⭐⭐⭐⚫⚫',
-    //     img:require('../images/skills/english.jpg').default
-    // },  
 ]

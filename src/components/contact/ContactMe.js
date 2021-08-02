@@ -2,17 +2,19 @@ import React, { useState } from "react";
 import { SocialIcon } from "react-social-icons";
 import emailjs from "emailjs-com";
 import "./contactme.css";
+import { dataNetworks, dataColaboration } from "../../store/data/dataSocial";
 
 export const ContactMe = ({ translate }) => {
+  console.log(process.env.REACT_APP_SERVICE_ID);
   const [done, setDone] = useState(true);
   function sendEmail(e) {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_9n8ghm9",
-        "template_01d7ccr",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         e.target,
-        "user_oO3f8j4icAtUQdVUMQYeE"
+        process.env.REACT_APP_USER_ID
       )
       .then((res) => {
         e.target.reset();
@@ -127,50 +129,32 @@ export const ContactMe = ({ translate }) => {
             </h4>
             <span>{translate("contact.socialInfo")}</span>
             <span className="socialNetworks">
-              <SocialIcon
-                className="socialIcon"
-                url="https://github.com/marcosgomezok"
-                bgColor="#fff"
-                style={{ height: 100, width: 100 }}
-                target="_blank"
-                rel="noreferrer"
-              />
-              <SocialIcon
-                className="socialIcon"
-                url="https://www.linkedin.com/in/marcosgomezok/"
-                bgColor="#fff"
-                style={{ height: 100, width: 100 }}
-                target="_blank"
-                rel="noreferrer"
-              />
-              <SocialIcon
-                className="socialIcon"
-                url="https://www.facebook.com/marcosgomez97/"
-                bgColor="#fff"
-                style={{ height: 100, width: 100 }}
-                target="_blank"
-                rel="noreferrer"
-              />
-              <SocialIcon
-                className="socialIcon"
-                url="https://www.instagram.com/marcosgomezok_/"
-                bgColor="#fff"
-                style={{ height: 100, width: 100 }}
-                target="_blank"
-                rel="noreferrer"
-              />
+              {dataNetworks.map((network) => (
+                <SocialIcon
+                  className="socialIcon"
+                  url={network.url}
+                  bgColor="#fff"
+                  style={{ height: 100, width: 100 }}
+                  target="_blank"
+                  rel="noreferrer"
+                />
+              ))}
+            </span>
+            <span className="titleCoffe">
+              {translate("contact.sendcoffe")}
+
+              {dataColaboration.map((colab) => (
+                <SocialIcon
+                  className="socialIcon"
+                  url={colab.url}
+                  bgColor="#fff"
+                  style={{ height: 100, width: 100 }}
+                  target="_blank"
+                  rel="noreferrer"
+                />
+              ))}
             </span>
           </div>
-          <span className="titleCoffe">{translate('contact.sendcoffe')}
-          <SocialIcon
-                className="socialIcon"
-                url="https://cafecito.app/marcosgomez"
-                bgColor="#fff"
-                style={{ height: 100, width: 100 }}
-                target="_blank"
-                rel="noreferrer"
-              />
-            </span>
         </aside>
       </div>
     </div>
