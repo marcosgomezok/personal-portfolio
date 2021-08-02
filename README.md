@@ -8,12 +8,21 @@ For it to work you must do the following
 
 * Modify the ```.env.develpment``` and ```.env.production``` files and set your own environment variables that [emailJs](https://www.emailjs.com) offers you
 
-# Modify 
+# Modifying the portfolio information
+
+In ```src/translations``` there are two folders that contain the portfolio information that is contained in JSON files:
+
+* JSON in English: ```src/translations/en/global.json``` 
+* JSON in Espanish: ```src/translations/en/global.json``` 
+
 
 # Add your Skills, Proyects and Social Networks
 
-In src/components/store/data you can find the following files:
+In ```src/store/data``` you can find the following files:
 
-* [dataProjects] : 
+* [dataProjects.js] : 
+* [dataSkills.js] : 
+* [dataSocial.js] : 
+
 
 
