@@ -5,7 +5,6 @@ import "./contactme.css";
 import { dataNetworks, dataColaboration } from "../../store/data/dataSocial";
 
 export const ContactMe = ({ translate }) => {
-  console.log(process.env.REACT_APP_SERVICE_ID);
   const [done, setDone] = useState(true);
   function sendEmail(e) {
     e.preventDefault();
